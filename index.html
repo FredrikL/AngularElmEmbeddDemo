@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" href="css.css"/>
+	</head>
+	<body ng-app="app">
+		<div ng-controller="Ctrl as vm">
+			<div ng-show="vm.outbound">
+				From elm: {{vm.outbound}}
+			</div>
+
+			<nglr something="vm.inbound"></nglr>
+
+			<elm module="Simple"></elm>
+			<elm module="Inbound" input="vm.inbound"></elm>
+			<elm module="Outbound" output="vm.msg(message)"></elm>
+
+		</div>
+		<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+		<script type="text/javascript" src="elm.js"></script>
+		<script type="text/javascript" src="angular.js"></script>
+	</body>
+</html>

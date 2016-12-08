@@ -1,0 +1,13 @@
+html {
+	font-size: 24px;
+}
+
+.nglr {
+	border: 1px solid #ff0000;
+	margin-bottom: 10px;
+}
+
+.elm {
+	border: 1px solid #0000ff;
+	margin-bottom: 10px;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "embedd",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Fredrik Leijon <fredrik.leijon@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
